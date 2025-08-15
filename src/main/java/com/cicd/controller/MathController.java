@@ -20,11 +20,11 @@ public class MathController {
             switch (operation.toLowerCase()) {
                 case "add":
                     return "Addition = " + (A + B);
-                case "subtract":
+                case "sub":
                     return "Subtraction = " + (A - B);
-                case "multiply":
+                case "mul":
                     return "Multiplication = " + (A * B);
-                case "divide":
+                case "div":
                     return (B != 0) ? "Division = " + ((double) A / B) : "Error: Division by zero";
                 default:
                     return "Invalid operation! Use add, subtract, multiply, or divide.";
