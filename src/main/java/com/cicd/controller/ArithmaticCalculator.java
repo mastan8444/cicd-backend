@@ -3,7 +3,7 @@ package com.cicd.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")  // root path
+@RequestMapping("/calculate")  // root path
 @CrossOrigin("*")
 public class ArithmaticCalculator{
 
