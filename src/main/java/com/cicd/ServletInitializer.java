@@ -7,6 +7,6 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(CicdBackendApplication.class); // replace with your main class
+        return application.sources(CicdBackendApplication.class);
     }
 }
