@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/cicd-backend")
-@CrossOrigin(origins = "http://localhost:9090") 
+@CrossOrigin(origins = "http://localhost:8080") 
 public class ArithmaticCalculator {
 
     @GetMapping("/add/{A}/{B}")
